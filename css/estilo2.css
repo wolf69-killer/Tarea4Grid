@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+.padre{
+    background-color: yellow;
+    padding: 5px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: "c1 c1 c1 c1"
+                        "c2 c3 c4 c5"
+                        "c6 c6 c6 c6";
+}                      
+
+.c1{
+    background-color: aqua;
+    grid-area: c1;
+}
+.c2{
+    background-color: bisque;
+    grid-area: c2;
+}
+.c3{
+    background-color: bisque;
+    grid-area: c3;
+}
+.c4{
+    background-color: bisque;
+    grid-area: c4;
+}
+.c5{
+    background-color: bisque;
+    grid-area: c5;
+}
+.c6{
+    background-color: aqua;
+    grid-area: c6;
+}
